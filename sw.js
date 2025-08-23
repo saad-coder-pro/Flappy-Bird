@@ -20,7 +20,7 @@ const ASSETS = [
   "./img/ground/g1.png",
   "./img/tap/t0.png",
   "./img/tap/t1.png",
-  "./flappy.png",
+  "./BG.png",
   // Sounds
   "./sfx/die.wav",
   "./sfx/flap.wav",
