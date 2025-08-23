@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="style.css" > 
     <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
 </head>
+    <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').catch(console.error);
+  }
+</script>
+
 <body>
     <canvas id="canvas" width="276" height="414"></canvas>
     <script src="game.js"></script>
